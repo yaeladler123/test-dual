@@ -1,0 +1,7 @@
+{
+  "base-services": ["vault", "cassandra", "apacheds", "nats"],
+  "gr-services": ["db-service", "secret-service"],
+  "no-frontend": true,
+  "no-environment-checks": true,
+  "pipeline-exec-engine": "None"
+}

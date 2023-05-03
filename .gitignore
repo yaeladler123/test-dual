@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDEs and editors
+/.idea/
+/.history/
+/.vscode/
+
+/build/
+/obj/
+/tmp/
+/temp/
+/vendor/
+
+**/.DS_*
+*.cov
+*.prof
+git.store
+GoAnalyzerError.log
+*.coverprofile
+coverage.xml
+test.xml
+ginkgo.output
+report.xml
+coverprofile.out
+
+go.work*
+
+# below file is for your local configuration file so it's not checked into the repo
+local.json
+
+# You can add the name of your service here to prevent the generated binary to be checked in

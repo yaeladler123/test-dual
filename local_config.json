@@ -1,0 +1,9 @@
+{
+  "log.level": "debug",
+  "server.listen.port": "8081",
+  "server.log.access": "./build/logs",
+  "server.log.error": "./build/logs",
+  "server.tls.certificate": "../grpc-testutil/creds/localhost.cert.pem",
+  "server.tls.privateKey": "../grpc-testutil/creds/localhost.key.pem",
+  "server.tls.ca": "../grpc-testutil/creds/CalculiCA-cert.pem"
+}
